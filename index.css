@@ -1,0 +1,50 @@
+@font-face {
+    font-family: wood;
+    src: url(Wooden\ Log.ttf);
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#maintext{
+    font-family: wood;
+    font-size: 4rem;
+    color: hsl(90, 100%, 30%);
+}
+
+.playerChoice button{
+    font-size: 7rem;
+    margin: 20px;
+    min-width: 160px;
+    border-radius: 80px;
+    border: none;
+    background-color: hsl(240, 100%, 65%);
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+}
+
+.playerChoice button:hover{
+    background-color: hsl(240, 100%, 75%);
+}
+
+.choices{
+    font-family: 'Segoe Script';
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.green,#playerScore{
+    color: green;
+}
+
+.red,#CPUScore{
+    color: red;
+}
+
+.ScoreDisplay{
+    font-size: 2rem;
+}
